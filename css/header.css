@@ -1,79 +1,76 @@
-.navigation__button-login,
-.navigation__button-register {
-    display: inline-flex;
-    justify-content: center;
-    align-items: center;
-    text-decoration: none;
-    border-radius: 8px;
-    font-weight: 500;
-    font-size: 15px;
-    font-family: "Inter", sans-serif;
-    height: 44px;
-    width: 132px;
-    cursor: pointer;
-}
-
-.navigation__button-login {
-    border: 1px solid #FB8F1D;
-    color: #FB8F1D;
-    background: #fff;
-}
-
-.navigation__button-register {
-    background-color: #FB8F1D;
-    color: #FFFFFF;
-    border: none;
-}
-
-.navigation__header {
+.header {
+    margin: 1rem auto auto;
     display: flex;
     align-items: center;
-    gap: 35px;
+    width: 1415px;
 }
 
-.head__logo {
-    height: 41px;
-    width: 41px;
-    transition: transform 0.3s;
+.header-navbar ul {
+    margin-left: 600px;
+    display: flex;
+    
 }
 
-.head__logo:hover {
-    transform: scale(1.2);
+.header-navbar li {
+    margin-right: 50px;
 }
 
-.head {
+.header-navbar a {
+    color: #B8BECD;
+    transition: color 0.3s;
+}
+
+.header-navbar a:hover {
+    color: black;
+}
+
+.header-navbar li:first-child a {
+    color: #000;
+}
+
+.logo-container {
+    display: flex;
+    align-items: center;
+}
+
+.logo {
+    z-index: 1;
+    width: 2.3rem;
+    animation: pulse 3s infinite;
+}
+
+.buttons {
+    align-items: center;
+    display: flex;
+}
+
+.buttons li {
+    background-color: #FB8F1D;
+    display: flex;
+    justify-content: center;
+    width: 6.5rem;
+    padding: 0.7rem;
+    margin: 0 1rem;
+    border-radius: 0.6rem;
+}
+
+.buttons li a {
+    font-size: 1rem;
+    color: #FFFFFF;
+}
+
+.buttons li:nth-child(1) {
     background-color: #FFFFFF;
 }
 
-.head__content {
-    height: 146px;
-    display: flex;
-    align-items: center;
-    justify-content: space-between;
+.buttons li:nth-child(1) {
+    border: #FB8F1D 0.1rem solid;
 }
 
-.navigation__list {
-    display: flex;
-    align-items: center;
-    gap: 35px;
-    list-style: none;
+.buttons li:nth-child(1) a {
+    color: #FB8F1D;
 }
 
-.navigation__list a {
-    text-decoration: none;
-    color: #B8BECD;
-    font-weight: 400;
-    font-size: 16px;
-    font-family: "Inter", sans-serif;
-    padding: 10px;
-    cursor: pointer;
-}
-
-.navigation__list-item.activeItem a {
-    color: #202336;
-    font-weight: 500;
-}
-
-.navigation__list a:hover {
-    color: #202336;
+.buttons li:nth-child(2) {
+    border: #FB8F1D 0.1rem solid;
 }
