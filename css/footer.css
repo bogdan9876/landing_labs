@@ -49,9 +49,3 @@
     animation-duration: 2s;
     animation-iteration-count: 1;
 }
-
-@media screen and (max-width: 768px) {
-    .footer__text {
-        display: none;
-    }
-}
