@@ -38,7 +38,7 @@
 }
 
 .section2 {
-    padding: 163px 0 165px;
+    padding: 163px 0 50px; 
 }
 
 .section2__content {
@@ -144,10 +144,6 @@
     transform: rotate(315deg);
 }
 
-.section2 {
-    padding: 163px 0 165px;
-}
-
 .section2__content {
     display: flex;
     flex-direction: column;
@@ -247,10 +243,6 @@
 .section2__view-all__button:hover .section2__view-all__button__arrow {
     border-color: #FFA500;
     transform: rotate(315deg);
-}
-
-.section2 {
-    padding: 163px 0 165px;
 }
 
 .section2__content {
